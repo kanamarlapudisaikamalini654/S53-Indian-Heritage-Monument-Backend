@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
 
 @RestController
 @RequestMapping("/api/comments")
-@CrossOrigin(origins = "http://localhost:5175")
+@CrossOrigin(origins = "http://localhost:5173")
 public class CommentController {
 
     @Autowired

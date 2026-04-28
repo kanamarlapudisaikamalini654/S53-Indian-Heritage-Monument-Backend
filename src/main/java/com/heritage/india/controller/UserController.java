@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/api/users")
 // Allows your React app (Port 5173) to communicate with the Backend (Port 8080)
-@CrossOrigin(origins = "http://localhost:5175", allowCredentials = "true")
+@CrossOrigin(origins = "http://localhost:5173", allowCredentials = "true")
 public class UserController {
 
     @Autowired
